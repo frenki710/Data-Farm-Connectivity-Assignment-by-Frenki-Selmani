@@ -23,3 +23,12 @@ This is the private repo for my assignment on Data Farm Connectivity.
 For every host, the program prints either:
 - the minimum latency and the corresponding path, or
 - `unreachable` if no valid transfer chain exists.
+
+
+## How to run:
+
+python main.py sample_input.txt
+
+or, if the path has spaces:
+
+python main.py "C:\_\Data Farm connectivity\sample_input.txt"
